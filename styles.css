@@ -58,7 +58,10 @@ body {
   white-space: nowrap;
 }
 .tab-btn:hover {
-  color: #217346;
+  color: #185c37;
+}
+.dark .tab-btn:hover {
+  color: #33c481;
 }
 .tab-btn.active {
   background: #e6f4ea;
@@ -175,8 +178,8 @@ input[type="range"] {
   flex-shrink: 0;
 }
 .alert-info {
-  background: #e0f2fe;
-  color: #075985;
+  background: #e6f4ea;
+  color: #185c37;
 }
 .alert-warn {
   background: #fef3c7;
@@ -187,8 +190,8 @@ input[type="range"] {
   color: #166534;
 }
 .dark .alert-info {
-  background: #0c2a3a;
-  color: #7dd3fc;
+  background: #103021;
+  color: #33c481;
 }
 .dark .alert-warn {
   background: #3a2e0c;
